@@ -8,6 +8,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button'
 
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
@@ -30,7 +31,7 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     ForDirective,
     ProductCreateComponent
   ],
-  // qualquer modulo que preciso usar em outro modulo coloco no imports
+  // qualquer MODULO que preciso usar em outro modulo coloco no imports
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -38,7 +39,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
