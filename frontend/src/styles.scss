@@ -3,11 +3,22 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .red {
-    color: rgb(227,94,107);
+    color: rgb(227, 94, 107);
 }
 .v-middle {
     vertical-align: middle;
 }
 mat-card-title {
     margin: 0 0 20px !important;
+}
+
+.msg {
+    color: #fff;
+
+    &-success {
+        background-color: #28a745;
+    }
+    &-error {
+        background-color: #e35e6b;
+    }
 }
